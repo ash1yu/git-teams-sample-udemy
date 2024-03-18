@@ -1,8 +1,9 @@
+
 name: hello_world # Workflow name
 on:
   push: # Event (https://docs.github.com/ja/enterprise-cloud@latest/actions/using-workflows/events-that-trigger-workflows)
     branches: # Target branch ()
-      - dev
+      - main
 jobs: # Job
   build: # Job ID
     runs-on: ubuntu-latest # Virtual machine env.
